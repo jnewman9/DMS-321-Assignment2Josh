@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+    ;
+    background-color: rgb(234, 250, 255);
+}
+img {
+    max-width: 50em;
+    height: auto;
+    padding: 1em
+}
+/* id*/
+#beigeish{
+background-color: beige;
+padding: 1em;
+}
+
+h1, h2, h3, h4{
+font-family: 'Times New Roman', Times, serif
+}
+
+a:hover{
+text-decoration: none;
+color: white;
+background-color: rgb(125, 225, 255);
+}
+
+p b {
+color: violet;
+}
+
+h2 + p{
+font-size: .7em;
+}
+.container{
+width: 100%
+}
+
+.col1{
+    width: 100%
+}
+.col2 {
+    width: 100%
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+    background-color:rgb(227, 144, 255)
+}
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap 5%;
+    }   
+}
